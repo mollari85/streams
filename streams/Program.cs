@@ -71,7 +71,7 @@ async Task<int> LongConnectionS(char simbol)
         for (int j = 0; j < 20; j++)
         {
             Console.Write("SQL" + simbol);
-            Thread.Sleep(10);
+            Thread.Sleep(11);
         }
         Console.WriteLine();
     }
